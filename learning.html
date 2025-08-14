@@ -4,18 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Learning Hub</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="container">
       <h1>🌤️ Weather Learning Hub</h1>
-      <p id="subheading_line">Explore different weather phenomena and learn how they work</p>
+      <p id="subheading_line">
+        Explore different weather phenomena and learn how they work
+      </p>
 
       <section class="weather-grid">
-        <article class="snow-card"></article>
-        <article class="rain-card"></article>
-        <article class="sun-card"></article>
-        <article class="cloud-card"></article>
+        <article id="snow-card" class="weather-card">
+          <h2>
+            <span class="weather-icon">❄️</span>
+            Snow Formation
+          </h2>
+          <p class="weather-description">
+            Snow forms when water vapor in clouds freezes into ice crystals.
+            Each snowflake is unique and falls gently to earth, creating
+            winter's magical blanket.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </article>
+        <article id="rain-card" class="weather-card">
+          <h2>
+            <span class="weather-icon">🌧️</span>
+            Rain Cycle
+          </h2>
+          <p class="weather-description">
+            Rain begins when water droplets in clouds become too heavy to stay
+            suspended. They fall as precipitation, nourishing plants and
+            refilling our water sources.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </article>
+        <article id="sun-card" class="weather-card">
+          <h2>
+            <span class="weather-icon">☀️</span>
+            Sunshine & Heat
+          </h2>
+          <p class="weather-description">
+            The sun provides energy that drives Earth's weather systems. Solar
+            radiation heats our planet, creating wind patterns and the water
+            cycle.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </article>
+        <article id="cloud-card" class="weather-card">
+          <h2>
+            <span class="weather-icon">☁️</span>
+            Cloud Formation
+          </h2>
+          <p class="weather-description">
+            Clouds form when warm, moist air rises and cools. Water vapor
+            condenses around tiny particles, creating the fluffy formations we
+            see in the sky.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </article>
       </section>
     </main>
   </body>
