@@ -1,0 +1,23 @@
+.container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 90vh;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#subheading_line {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
